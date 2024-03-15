@@ -1,0 +1,14 @@
+.navbar {
+  background-color: var(--background-color);
+  height: 3em;
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  gap: 2;
+  align-items: center;
+  margin-bottom: 1%;
+  color: var(--foreground-color);
+}
+
+.link:hover {
+  color: var(--accent-color);
+}
